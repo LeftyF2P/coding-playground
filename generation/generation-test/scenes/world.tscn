@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://cnww7xt32ivhk"]
+
+[ext_resource type="Script" uid="uid://dj1pskvskgvxm" path="res://scripts/camera_script.gd" id="1_rwgxs"]
+[ext_resource type="Script" uid="uid://c4vvhifordmr6" path="res://scenes/grid_overlay.gd" id="2_4wyf3"]
+[ext_resource type="Texture2D" uid="uid://cv0xkp1y7a7q2" path="res://icon.svg" id="3_4wyf3"]
+
+[node name="world" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)
+script = ExtResource("1_rwgxs")
+
+[node name="grid" type="Node2D" parent="."]
+script = ExtResource("2_4wyf3")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(64, 64)
+texture = ExtResource("3_4wyf3")

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/Evan/dev/opengl/hello_test/build",
+  "command": "/usr/bin/cc -I/home/Evan/dev/opengl/hello_test/external/glad/include -o CMakeFiles/glad.dir/external/glad/src/glad.c.o -c /home/Evan/dev/opengl/hello_test/external/glad/src/glad.c",
+  "file": "/home/Evan/dev/opengl/hello_test/external/glad/src/glad.c",
+  "output": "CMakeFiles/glad.dir/external/glad/src/glad.c.o"
+},
+{
+  "directory": "/home/Evan/dev/opengl/hello_test/build",
+  "command": "/usr/bin/c++ -I/home/Evan/dev/opengl/hello_test/external/glad/include -std=gnu++17 -o CMakeFiles/opengl_hello.dir/src/main.cpp.o -c /home/Evan/dev/opengl/hello_test/src/main.cpp",
+  "file": "/home/Evan/dev/opengl/hello_test/src/main.cpp",
+  "output": "CMakeFiles/opengl_hello.dir/src/main.cpp.o"
+}
+]
