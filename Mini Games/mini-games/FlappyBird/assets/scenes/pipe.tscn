@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://8ndhqcnrhmrv"]
+
+[ext_resource type="Script" uid="uid://b2seau1ykjht6" path="res://FlappyBird/assets/scripts/pipe_manager.gd" id="1_10gwp"]
+[ext_resource type="Texture2D" uid="uid://c36l21pciv35a" path="res://icon.svg" id="1_r0ai8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_10gwp"]
+size = Vector2(128, 128)
+
+[node name="Pipe" type="Node2D"]
+script = ExtResource("1_10gwp")
+
+[node name="PipeSprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_r0ai8")
+
+[node name="PipeArea" type="Area2D" parent="."]
+
+[node name="PipeCollision" type="CollisionShape2D" parent="PipeArea"]
+shape = SubResource("RectangleShape2D_10gwp")
+
+[connection signal="body_entered" from="PipeArea" to="." method="_on_pipe_area_body_entered"]

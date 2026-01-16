@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>{{ .Title }}</h1>
+    <ul>
+        {{ range .Facts }}
+            <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+    <a href="/">Back to Home</a>
+</body>
+</html>

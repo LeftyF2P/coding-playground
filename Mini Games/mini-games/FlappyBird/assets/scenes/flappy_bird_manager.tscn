@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://wie0kafdx75s"]
+
+[ext_resource type="Script" uid="uid://5uq2u3v2xg5i" path="res://FlappyBird/assets/scripts/flappy_bird_manager.gd" id="1_bl1a8"]
+[ext_resource type="PackedScene" uid="uid://57hki1bboigl" path="res://FlappyBird/assets/scenes/flappy_bird_player.tscn" id="2_yl48e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iwibf"]
+size = Vector2(1920, 20)
+
+[node name="FlappyBirdManager" type="Node2D"]
+script = ExtResource("1_bl1a8")
+spawn_rate = 2.0
+
+[node name="FlappyBirdPlayer" parent="." instance=ExtResource("2_yl48e")]
+position = Vector2(300, 540)
+
+[node name="PipeSpawnPoint" type="Node2D" parent="."]
+position = Vector2(1920, 540)
+
+[node name="Floor" type="StaticBody2D" parent="."]
+position = Vector2(10, 1070)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
+position = Vector2(950, 0)
+shape = SubResource("RectangleShape2D_iwibf")
+
+[node name="Ceiling" type="StaticBody2D" parent="."]
+position = Vector2(10, 10)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ceiling"]
+position = Vector2(950, 0)
+shape = SubResource("RectangleShape2D_iwibf")
+
+[node name="PipeList" type="Node2D" parent="."]

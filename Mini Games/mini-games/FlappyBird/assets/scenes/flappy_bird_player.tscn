@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://57hki1bboigl"]
+
+[ext_resource type="Script" uid="uid://c72352y0lj14c" path="res://FlappyBird/assets/scripts/flappy_bird_player.gd" id="1_0dvg6"]
+[ext_resource type="Texture2D" uid="uid://c36l21pciv35a" path="res://icon.svg" id="1_j1ccw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0dvg6"]
+size = Vector2(58, 58)
+
+[node name="FlappyBirdPlayer" type="CharacterBody2D" groups=["FlappyBird"]]
+disable_mode = 2
+script = ExtResource("1_0dvg6")
+
+[node name="FlappySprite" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_j1ccw")
+
+[node name="FlappyCollision" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_0dvg6")

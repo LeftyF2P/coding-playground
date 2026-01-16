@@ -1,0 +1,422 @@
+[gd_scene load_steps=4 format=3 uid="uid://jihogxfkyjt5"]
+
+[ext_resource type="Script" uid="uid://c3pxt382pgwd2" path="res://scripts/main.gd" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://dsixmvbnjsv24" path="res://scenes/cell.tscn" id="3_sugp2"]
+[ext_resource type="FontFile" uid="uid://bt1kghqvj5s5k" path="res://fonts/Arimo-Regular.ttf" id="4_jyhfs"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_o5qli")
+
+[node name="Board" type="Sprite2D" parent="."]
+position = Vector2(315, 322)
+scale = Vector2(1.5, 1.5)
+
+[node name="Grid" type="GridContainer" parent="Board"]
+offset_left = -188.0
+offset_top = -188.0
+offset_right = 204.0
+offset_bottom = 204.0
+theme_override_constants/h_separation = 2
+theme_override_constants/v_separation = 2
+columns = 9
+
+[node name="Cell" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell2" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell3" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell4" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell5" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell6" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell7" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell8" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell9" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell10" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell11" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell12" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell13" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell14" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell15" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell16" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell17" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell18" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell19" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell20" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell21" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell22" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell23" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell24" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell25" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell26" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell27" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell28" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell29" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell30" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell31" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell32" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell33" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell34" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell35" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell36" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell37" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell38" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell39" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell40" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell41" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell42" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell43" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell44" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell45" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell46" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell47" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell48" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell49" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell50" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell51" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell52" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell53" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell54" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell55" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell56" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell57" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell58" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell59" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell60" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell61" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell62" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell63" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell64" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell65" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell66" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell67" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell68" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell69" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell70" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell71" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell72" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell73" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell74" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell75" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell76" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell77" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell78" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell79" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell80" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="Cell81" parent="Board/Grid" instance=ExtResource("3_sugp2")]
+layout_mode = 2
+
+[node name="HUD" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Numbers" type="Control" parent="HUD"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -54.0
+offset_top = 131.0
+offset_right = -14.0
+offset_bottom = 171.0
+
+[node name="1" type="Button" parent="HUD/Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 900.0
+offset_top = 15.0
+offset_right = 964.0
+offset_bottom = 79.0
+text = "1"
+
+[node name="2" type="Button" parent="HUD/Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 970.0
+offset_top = 15.0
+offset_right = 1034.0
+offset_bottom = 79.0
+text = "2"
+
+[node name="3" type="Button" parent="HUD/Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 1040.0
+offset_top = 15.0
+offset_right = 1104.0
+offset_bottom = 79.0
+text = "3"
+
+[node name="4" type="Button" parent="HUD/Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 900.0
+offset_top = 86.0
+offset_right = 964.0
+offset_bottom = 150.0
+text = "4"
+
+[node name="5" type="Button" parent="HUD/Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 970.0
+offset_top = 86.0
+offset_right = 1034.0
+offset_bottom = 150.0
+text = "5"
+
+[node name="6" type="Button" parent="HUD/Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 1040.0
+offset_top = 86.0
+offset_right = 1104.0
+offset_bottom = 150.0
+text = "6"
+
+[node name="7" type="Button" parent="HUD/Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 900.0
+offset_top = 157.0
+offset_right = 964.0
+offset_bottom = 221.0
+text = "7"
+
+[node name="8" type="Button" parent="HUD/Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 970.0
+offset_top = 157.0
+offset_right = 1034.0
+offset_bottom = 221.0
+text = "8"
+
+[node name="9" type="Button" parent="HUD/Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 1040.0
+offset_top = 157.0
+offset_right = 1104.0
+offset_bottom = 221.0
+text = "9"
+
+[node name="Clear" type="Button" parent="HUD"]
+layout_mode = 0
+offset_left = 925.0
+offset_top = 360.0
+offset_right = 974.0
+offset_bottom = 391.0
+text = "Clear"
+
+[node name="Pencil" type="Button" parent="HUD"]
+layout_mode = 0
+offset_left = 850.0
+offset_top = 360.0
+offset_right = 905.0
+offset_bottom = 391.0
+text = "Pencil"
+
+[node name="New Game" type="Button" parent="HUD"]
+layout_mode = 0
+offset_left = 805.0
+offset_top = 590.0
+offset_right = 898.0
+offset_bottom = 621.0
+text = "New Game"
+
+[node name="Difficulty" type="OptionButton" parent="HUD"]
+layout_mode = 0
+offset_left = 914.0
+offset_top = 589.0
+offset_right = 1080.0
+offset_bottom = 620.0
+alignment = 1
+selected = 0
+item_count = 3
+popup/item_0/text = "Easy"
+popup/item_0/id = 0
+popup/item_1/text = "Medium"
+popup/item_1/id = 1
+popup/item_2/text = "Hard"
+popup/item_2/id = 2
+
+[node name="Time" type="Label" parent="HUD"]
+layout_mode = 0
+offset_left = 628.0
+offset_top = 297.0
+offset_right = 1251.0
+offset_bottom = 476.0
+theme_override_fonts/font = ExtResource("4_jyhfs")
+theme_override_font_sizes/font_size = 48
+text = "00:00:00"
+
+[node name="Hint" type="Button" parent="HUD"]
+layout_mode = 0
+offset_left = 992.0
+offset_top = 359.0
+offset_right = 1046.0
+offset_bottom = 390.0
+text = "Hint"

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dw7n1dh2agn64"]
+
+[ext_resource type="Script" uid="uid://dy8u5km2tmgih" path="res://scripts/board.gd" id="1_bw3vb"]
+[ext_resource type="PackedScene" uid="uid://dsixmvbnjsv24" path="res://scenes/cell.tscn" id="2_tx6nw"]
+
+[node name="Board" type="GridContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 9
+script = ExtResource("1_bw3vb")
+cell_scene = ExtResource("2_tx6nw")

@@ -1,0 +1,154 @@
+[gd_scene load_steps=2 format=3 uid="uid://choqovfk0bh0f"]
+
+[ext_resource type="Script" uid="uid://brrw0mlitews8" path="res://scripts/hud.gd" id="1_ahhtf"]
+
+[node name="HUD" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ahhtf")
+
+[node name="Numbers" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="1" type="Button" parent="Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 900.0
+offset_top = 15.0
+offset_right = 964.0
+offset_bottom = 79.0
+text = "1"
+
+[node name="2" type="Button" parent="Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 970.0
+offset_top = 15.0
+offset_right = 1034.0
+offset_bottom = 79.0
+text = "2"
+
+[node name="3" type="Button" parent="Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 1040.0
+offset_top = 15.0
+offset_right = 1104.0
+offset_bottom = 79.0
+text = "3"
+
+[node name="4" type="Button" parent="Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 900.0
+offset_top = 86.0
+offset_right = 964.0
+offset_bottom = 150.0
+text = "4"
+
+[node name="5" type="Button" parent="Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 970.0
+offset_top = 86.0
+offset_right = 1034.0
+offset_bottom = 150.0
+text = "5"
+
+[node name="6" type="Button" parent="Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 1040.0
+offset_top = 86.0
+offset_right = 1104.0
+offset_bottom = 150.0
+text = "6"
+
+[node name="7" type="Button" parent="Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 900.0
+offset_top = 157.0
+offset_right = 964.0
+offset_bottom = 221.0
+text = "7"
+
+[node name="8" type="Button" parent="Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 970.0
+offset_top = 157.0
+offset_right = 1034.0
+offset_bottom = 221.0
+text = "8"
+
+[node name="9" type="Button" parent="Numbers"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 0
+offset_left = 1040.0
+offset_top = 157.0
+offset_right = 1104.0
+offset_bottom = 221.0
+text = "9"
+
+[node name="Clear" type="Button" parent="."]
+layout_mode = 0
+offset_left = 978.0
+offset_top = 231.0
+offset_right = 1027.0
+offset_bottom = 262.0
+text = "Clear"
+
+[node name="Pencil" type="Button" parent="."]
+layout_mode = 0
+offset_left = 905.0
+offset_top = 230.0
+offset_right = 960.0
+offset_bottom = 261.0
+text = "Pencil"
+
+[node name="New Game" type="Button" parent="."]
+layout_mode = 0
+offset_left = 143.0
+offset_top = 607.0
+offset_right = 236.0
+offset_bottom = 638.0
+text = "New Game"
+
+[node name="Difficulty" type="OptionButton" parent="."]
+layout_mode = 0
+offset_left = 252.0
+offset_top = 606.0
+offset_right = 418.0
+offset_bottom = 637.0
+alignment = 1
+selected = 0
+item_count = 3
+popup/item_0/text = "Easy"
+popup/item_0/id = 0
+popup/item_1/text = "Medium"
+popup/item_1/id = 1
+popup/item_2/text = "Hard"
+popup/item_2/id = 2
+
+[node name="Time" type="Label" parent="."]
+layout_mode = 0
+offset_left = 467.0
+offset_top = 610.0
+offset_right = 684.0
+offset_bottom = 633.0
+text = "00:00:00"
+
+[node name="Hint" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1045.0
+offset_top = 232.0
+offset_right = 1099.0
+offset_bottom = 263.0
+text = "Hint"

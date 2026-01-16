@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://bjo1ooc42n046"]
+
+[ext_resource type="Texture2D" uid="uid://bfygdl25rco3k" path="res://assets/art/MTG Card.png" id="1_6h3ru"]
+[ext_resource type="PackedScene" uid="uid://dkyqlxsuyb1u7" path="res://assets/script_components/DraggableComponent.tscn" id="2_e1pfs"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tjv8p"]
+size = Vector2(500, 700)
+
+[node name="Card" type="Node2D"]
+scale = Vector2(0.3, 0.3)
+
+[node name="Card_Image" type="Sprite2D" parent="."]
+texture = ExtResource("1_6h3ru")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_tjv8p")
+
+[node name="DraggableComponent" parent="." instance=ExtResource("2_e1pfs")]
+
+[connection signal="mouse_entered" from="Area2D" to="DraggableComponent" method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="DraggableComponent" method="_on_area_2d_mouse_exited"]

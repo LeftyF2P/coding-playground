@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://ddb35vojx7v6a"]
+
+[ext_resource type="PackedScene" uid="uid://htco8f7gxg5p" path="res://assets/characters/player.tscn" id="1_s1xgc"]
+[ext_resource type="Script" uid="uid://mdcv8yret878" path="res://assets/scripts/game_manager.gd" id="1_u05g1"]
+[ext_resource type="PackedScene" uid="uid://bcp4reot7v3b3" path="res://assets/characters/duelist.tscn" id="3_np4up"]
+[ext_resource type="PackedScene" uid="uid://bjo1ooc42n046" path="res://assets/deck_components/card.tscn" id="4_h5m5w"]
+
+[node name="Game Manager" type="Node2D"]
+script = ExtResource("1_u05g1")
+
+[node name="Player" parent="." instance=ExtResource("1_s1xgc")]
+visible = false
+position = Vector2(198, 112)
+speed = 50000
+
+[node name="Duelist" parent="." instance=ExtResource("3_np4up")]
+visible = false
+position = Vector2(464, 204)
+move_speed = 7500.0
+
+[node name="Card" parent="." instance=ExtResource("4_h5m5w")]
+position = Vector2(198, 465)
+
+[node name="Card2" parent="." instance=ExtResource("4_h5m5w")]
+position = Vector2(284, 467)
+
+[node name="Card3" parent="." instance=ExtResource("4_h5m5w")]
+position = Vector2(368, 467)
+
+[node name="Card4" parent="." instance=ExtResource("4_h5m5w")]
+position = Vector2(449, 468)

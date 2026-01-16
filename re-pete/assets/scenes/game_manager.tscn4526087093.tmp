@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://dgec41eba3eqi"]
+
+[ext_resource type="Script" uid="uid://dburktlxb2qid" path="res://scripts/game_manager.gd" id="1_pyh3q"]
+[ext_resource type="PackedScene" uid="uid://dpcse6rl6jgjq" path="res://assets/scenes/levels/test_world.tscn" id="2_hwl8t"]
+[ext_resource type="PackedScene" uid="uid://ca4gpahbvp36j" path="res://assets/characters/pete.tscn" id="3_hwl8t"]
+
+[node name="Game_Manager" type="Node2D"]
+script = ExtResource("1_pyh3q")
+
+[node name="Test World" parent="." instance=ExtResource("2_hwl8t")]
+
+[node name="Pete" parent="." instance=ExtResource("3_hwl8t")]
+position = Vector2(208, 498)

@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://bcp4reot7v3b3"]
+
+[ext_resource type="Script" uid="uid://b8we8olyutqag" path="res://assets/characters/duelist.gd" id="1_d2gxu"]
+[ext_resource type="Texture2D" uid="uid://b0hnrq3ba8cm3" path="res://icon.svg" id="1_suaxe"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d2gxu"]
+size = Vector2(64, 64)
+
+[node name="Duelist" type="CharacterBody2D"]
+script = ExtResource("1_d2gxu")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 0, 0, 1)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_suaxe")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_d2gxu")
+
+[node name="LoS" type="Area2D" parent="."]
+
+[node name="Area" type="CollisionPolygon2D" parent="LoS"]
+polygon = PackedVector2Array(0, 0, 100, -250, -100, -250)
+
+[connection signal="body_shape_entered" from="LoS" to="." method="_on_body_shape_entered"]
+[connection signal="body_shape_exited" from="LoS" to="." method="_on_body_shape_exited"]

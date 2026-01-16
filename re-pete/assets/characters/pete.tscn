@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://ca4gpahbvp36j"]
+
+[ext_resource type="Script" uid="uid://dda4110c2s8uk" path="res://scripts/pete.gd" id="1_4rh2l"]
+[ext_resource type="Texture2D" uid="uid://bbem88n68ti27" path="res://icon.svg" id="2_4rh2l"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4rh2l"]
+size = Vector2(128, 128)
+
+[node name="Pete" type="CharacterBody2D"]
+script = ExtResource("1_4rh2l")
+
+[node name="Icon" type="Sprite2D" parent="."]
+texture = ExtResource("2_4rh2l")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_4rh2l")
