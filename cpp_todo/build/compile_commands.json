@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/Evan/dev/playground/cpp_todo/build",
+  "command": "/usr/bin/c++   -std=gnu++17 -o CMakeFiles/cpp_todo.dir/src/main.cpp.o -c /home/Evan/dev/playground/cpp_todo/src/main.cpp",
+  "file": "/home/Evan/dev/playground/cpp_todo/src/main.cpp",
+  "output": "CMakeFiles/cpp_todo.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/Evan/dev/playground/cpp_todo/build",
+  "command": "/usr/bin/c++   -std=gnu++17 -o CMakeFiles/cpp_todo.dir/src/todo.cpp.o -c /home/Evan/dev/playground/cpp_todo/src/todo.cpp",
+  "file": "/home/Evan/dev/playground/cpp_todo/src/todo.cpp",
+  "output": "CMakeFiles/cpp_todo.dir/src/todo.cpp.o"
+}
+]
