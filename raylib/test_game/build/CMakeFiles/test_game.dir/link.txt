@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/test_game.dir/link.d CMakeFiles/test_game.dir/source/main.cpp.o -o test_game  _deps/raylib-build/raylib/libraylib.a -lm -lpthread /usr/lib64/libOpenGL.so /usr/lib64/libGLX.so /usr/lib64/libGLU.so _deps/raylib-build/raylib/external/glfw/src/libglfw3.a /usr/lib64/librt.a -lm -ldl
