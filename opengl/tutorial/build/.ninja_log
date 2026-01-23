@@ -1,0 +1,16 @@
+# ninja log v7
+2	41	1769122404786177356	CMakeFiles/gl_triangle.dir/src/main.cpp.o	6ca0a0b875f50568
+1	65	1769122404785177343	CMakeFiles/glad.dir/external/glad/src/glad.c.o	83543d4483beb2d8
+65	93	1769122404849178223	libglad.a	ace479962c49eec4
+93	136	1769122404877178609	gl_triangle	11aa46bfb0cfe19e
+1	23	1769125490978334272	CMakeFiles/gl_tutorial.dir/src/gl/VBO.cpp.o	abc8502d9b0199f4
+2	27	1769125490978524340	CMakeFiles/gl_tutorial.dir/src/gl/EBO.cpp.o	9f51dbeb6462ad7b
+1	24	1769125490978514345	CMakeFiles/gl_tutorial.dir/src/gl/VAO.cpp.o	85ce9de060b37e77
+1	203	1769125490978141199	CMakeFiles/gl_tutorial.dir/src/gl/shaderClass.cpp.o	baf616af7c64db2d
+1	25	1769126068416923814	build.ninja	408e75a9c5d4487f
+2	23	1769126071197635357	CMakeFiles/gl_tutorial.dir/src/gl/VBO.cpp.o	abc8502d9b0199f4
+2	23	1769126071197788879	CMakeFiles/gl_tutorial.dir/src/gl/VAO.cpp.o	85ce9de060b37e77
+2	25	1769126071197959581	CMakeFiles/gl_tutorial.dir/src/gl/EBO.cpp.o	9f51dbeb6462ad7b
+1	171	1769126071196390693	CMakeFiles/gl_tutorial.dir/src/main.cpp.o	4330a6ea69298030
+1	184	1769126071197432114	CMakeFiles/gl_tutorial.dir/src/gl/Shader.cpp.o	884332394dc4f09c
+184	228	1769126071379393163	gl_tutorial	e96e7382159cd9de

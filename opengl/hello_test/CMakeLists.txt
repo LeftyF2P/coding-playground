@@ -18,6 +18,7 @@ pkg_check_modules(GLFW REQUIRED glfw3)
 
 add_executable(opengl_hello
     src/main.cpp
+    src/shaderClass.cpp
 )
 
 target_include_directories(opengl_hello PRIVATE

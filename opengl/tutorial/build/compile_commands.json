@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/Evan/dev/playground/opengl/tutorial/build",
+  "command": "/usr/bin/cc -I/home/Evan/dev/playground/opengl/tutorial/external/glad/include -o CMakeFiles/glad.dir/external/glad/src/glad.c.o -c /home/Evan/dev/playground/opengl/tutorial/external/glad/src/glad.c",
+  "file": "/home/Evan/dev/playground/opengl/tutorial/external/glad/src/glad.c",
+  "output": "CMakeFiles/glad.dir/external/glad/src/glad.c.o"
+},
+{
+  "directory": "/home/Evan/dev/playground/opengl/tutorial/build",
+  "command": "/usr/bin/c++ -I/home/Evan/dev/playground/opengl/tutorial/src -I/home/Evan/dev/playground/opengl/tutorial/src/gl -I/home/Evan/dev/playground/opengl/tutorial/external/glad/include -std=gnu++17 -o CMakeFiles/gl_tutorial.dir/src/main.cpp.o -c /home/Evan/dev/playground/opengl/tutorial/src/main.cpp",
+  "file": "/home/Evan/dev/playground/opengl/tutorial/src/main.cpp",
+  "output": "CMakeFiles/gl_tutorial.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/Evan/dev/playground/opengl/tutorial/build",
+  "command": "/usr/bin/c++ -I/home/Evan/dev/playground/opengl/tutorial/src -I/home/Evan/dev/playground/opengl/tutorial/src/gl -I/home/Evan/dev/playground/opengl/tutorial/external/glad/include -std=gnu++17 -o CMakeFiles/gl_tutorial.dir/src/gl/Shader.cpp.o -c /home/Evan/dev/playground/opengl/tutorial/src/gl/Shader.cpp",
+  "file": "/home/Evan/dev/playground/opengl/tutorial/src/gl/Shader.cpp",
+  "output": "CMakeFiles/gl_tutorial.dir/src/gl/Shader.cpp.o"
+},
+{
+  "directory": "/home/Evan/dev/playground/opengl/tutorial/build",
+  "command": "/usr/bin/c++ -I/home/Evan/dev/playground/opengl/tutorial/src -I/home/Evan/dev/playground/opengl/tutorial/src/gl -I/home/Evan/dev/playground/opengl/tutorial/external/glad/include -std=gnu++17 -o CMakeFiles/gl_tutorial.dir/src/gl/VBO.cpp.o -c /home/Evan/dev/playground/opengl/tutorial/src/gl/VBO.cpp",
+  "file": "/home/Evan/dev/playground/opengl/tutorial/src/gl/VBO.cpp",
+  "output": "CMakeFiles/gl_tutorial.dir/src/gl/VBO.cpp.o"
+},
+{
+  "directory": "/home/Evan/dev/playground/opengl/tutorial/build",
+  "command": "/usr/bin/c++ -I/home/Evan/dev/playground/opengl/tutorial/src -I/home/Evan/dev/playground/opengl/tutorial/src/gl -I/home/Evan/dev/playground/opengl/tutorial/external/glad/include -std=gnu++17 -o CMakeFiles/gl_tutorial.dir/src/gl/VAO.cpp.o -c /home/Evan/dev/playground/opengl/tutorial/src/gl/VAO.cpp",
+  "file": "/home/Evan/dev/playground/opengl/tutorial/src/gl/VAO.cpp",
+  "output": "CMakeFiles/gl_tutorial.dir/src/gl/VAO.cpp.o"
+},
+{
+  "directory": "/home/Evan/dev/playground/opengl/tutorial/build",
+  "command": "/usr/bin/c++ -I/home/Evan/dev/playground/opengl/tutorial/src -I/home/Evan/dev/playground/opengl/tutorial/src/gl -I/home/Evan/dev/playground/opengl/tutorial/external/glad/include -std=gnu++17 -o CMakeFiles/gl_tutorial.dir/src/gl/EBO.cpp.o -c /home/Evan/dev/playground/opengl/tutorial/src/gl/EBO.cpp",
+  "file": "/home/Evan/dev/playground/opengl/tutorial/src/gl/EBO.cpp",
+  "output": "CMakeFiles/gl_tutorial.dir/src/gl/EBO.cpp.o"
+}
+]
